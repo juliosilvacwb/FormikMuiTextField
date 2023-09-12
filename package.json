@@ -1,0 +1,61 @@
+{
+  "name": "formik-mui-textfield",
+  "version": "1.0.0",
+  "description": "HTML Input using Formik and TextField of Material UI",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliosilvacwb/FormikMuiTextField.git"
+  },
+  "keywords": [
+    "formik",
+    "mui",
+    "material",
+    "ui",
+    "yup"
+  ],
+  "author": "Julio Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliosilvacwb/FormikMuiTextField/issues"
+  },
+  "homepage": "https://github.com/juliosilvacwb/FormikMuiTextField#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.3",
+    "@storybook/addon-essentials": "^7.5.0-alpha.2",
+    "@storybook/addon-interactions": "^7.5.0-alpha.2",
+    "@storybook/addon-links": "^7.5.0-alpha.2",
+    "@storybook/addon-mdx-gfm": "^7.5.0-alpha.2",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.0-alpha.2",
+    "@storybook/react": "^7.5.0-alpha.2",
+    "@storybook/react-vite": "^7.5.0-alpha.2",
+    "@storybook/testing-library": "^0.2.1-next.0",
+    "@types/react": "^18.2.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.29.1",
+    "rollup-plugin-dts": "^6.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "storybook": "^7.5.0-alpha.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.8",
+    "@types/yup": "^0.32.0",
+    "formik": "^2.4.4",
+    "yup": "^1.2.0"
+  }
+}
