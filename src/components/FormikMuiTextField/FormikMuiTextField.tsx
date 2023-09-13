@@ -16,7 +16,7 @@ function FormikMuiTextField({ ...props }) {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 type={type}
-                error={formik.touched[name] && Boolean(formik.errors[name])}
+                error={Boolean(formik.touched[name]) && Boolean(formik.errors[name])}
                 helperText={formik.touched[name] && formik.errors[name]}
                 {...props}
             />
